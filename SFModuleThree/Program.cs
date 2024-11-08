@@ -1,7 +1,5 @@
 ﻿string myName;
 
-myName = "Kirill";
-
-Console.WriteLine($"Here is your name: {myName}");
+Console.WriteLine("\u0023");
 
 Console.ReadLine();
