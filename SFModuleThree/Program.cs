@@ -1,9 +1,6 @@
 ﻿using SFModuleThree.Models;
 using System.Text;
 
-enum Semaphore : int
-{
-	Red = 100,
-	Yellow = 200,
-	Green = 300
-}
+double result = 10 % 3;
+
+Console.WriteLine(result);
