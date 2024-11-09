@@ -12,19 +12,15 @@ namespace SFModuleThree.Models
 
 		public int Age { get; set; }
 
-		public bool IsHaveAPet { get; set; }
+		public string BirthDate { get; set; }
 
-		public float SizeOfFeet { get; set; }
-
-		public UserModel(string name, int age, bool isHaveAPet, float sizeOfFeet)
+		public UserModel(string name, int age, string birthDate)
 		{
 			Name = name;
 
 			Age = age;
 
-			IsHaveAPet = isHaveAPet;
-
-			SizeOfFeet = sizeOfFeet;
+			BirthDate = birthDate;
 		}
 	}
 }
